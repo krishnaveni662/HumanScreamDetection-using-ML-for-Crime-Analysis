@@ -20,19 +20,19 @@
 - Flask for web UI
 - Telegram Bot API for notifications
 
+## 🧪 Dataset & Model
+- Trained using ESC-50 dataset
+- Only the human_scream category was extracted
+- Other sounds were merged into a non_scream class
+- Environmental noise augmentation applied (e.g., vehicle sounds, crowd cheers)
+
+## 🚧 Future Improvements
+- Mobile app integration
+- Support for multilingual alerting
+- Further model compression for edge deployment
+
 ### 1. Clone the Repository
 
 ```bash
 git clone https://github.com/krishnaveni662/HumanScreamDetection.git
 cd HumanScreamDetection
-
-🧪 Dataset & Model
-Trained using ESC-50 dataset
-Only the human_scream category was extracted
-Other sounds were merged into a non_scream class
-Environmental noise augmentation applied (e.g., vehicle sounds, crowd cheers)
-
-🚧 Future Improvements
-Mobile app integration
-Support for multilingual alerting
-Further model compression for edge deployment
